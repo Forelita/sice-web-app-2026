@@ -2,11 +2,20 @@
   "name": "sice-backend",
   "version": "1.0.0",
   "description": "Backend for the SICE application",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+
   },
-  "keywords": [],
+    "keywords": [
+    "sice",
+    "backend",
+    "node",
+    "express",
+    "mysql"
+  ],
   "author": "Carolina Forero",
   "license": "ISC",
   "type": "commonjs",
